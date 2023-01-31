@@ -1,0 +1,20 @@
+{
+    "latex-workshop.docker.enabled": true,
+    "latex-workshop.latex.outDir": "./out",
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.docker.image.latex": "osbm/osbm-cv",
+    "latex-workshop.linting.chktex.enabled": true,
+    "latex-workshop.latex.clean.subfolder.enabled": true,
+    "editor.formatOnSave": true,
+    "latex-workshop.latexindent.path": "latexindent",
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "lastUsed",
+            "tools": [
+                "xelatexmk"
+            ]
+        },
+    ],
+}

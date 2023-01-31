@@ -1,0 +1,16 @@
+name: Delete old build branches
+
+on: [delete, workflow_dispatch]
+
+jobs:
+  deleter-job:
+    name: Deleter job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+
+      - name: Delete old branches
+        uses: osbm/delete-old-build-branches@latest
+        with:
+          github_token: ${{ github.token }}
