@@ -1,0 +1,10 @@
+[package]
+name = "osbm-resume"
+version = "0.0.1"
+entrypoint = "main.typ"
+authors = ["@osbm"]
+license = "MIT"
+description = "A resume design implemented in typst"
+repository = "https://github.com/osbm/resume"
+keywords = ["cv", "resume"]
+categories = ["cv"]
