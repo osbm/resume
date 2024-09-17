@@ -85,7 +85,7 @@ Docker Hub: #link("https://hub.docker.com/u/osbm")[hub.docker.com/u/osbm]
   location: "Turkey / Istanbul",
   date: "August 2021 - May 2025",
   // artificial intelligence engineering
-  description: "Bachelor of Engineering in Artificial Intelligence",
+  description: "Bachelor of Engineering in Artificial Intelligence (100% Scholarship)",
 )
 
 
