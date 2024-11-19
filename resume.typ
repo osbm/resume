@@ -21,9 +21,10 @@
       "Open Source Contributor",
     ),
   ),
-  date: datetime.today().display(),
+  date: "",
   language: "en",
   colored-headers: true,
+  show-footer: false
 )
 
 = About Me
