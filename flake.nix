@@ -16,6 +16,12 @@
     #   url = "github:FortAwesome/Font-Awesome";
     #   flake = false;
     # };
+
+    inputs.typst-packages = {
+      url = "github:typst/packages";
+      flake = false;
+    };
+
   };
 
   outputs = inputs @ {
