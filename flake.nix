@@ -3,6 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    typst-packages = {
+      url = "github:typst/packages";
+      flake = false;
+    };
   };
 
   outputs = { self , nixpkgs ,... }: let
