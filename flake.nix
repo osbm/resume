@@ -37,7 +37,7 @@
 
       src = typixLib.cleanTypstSource ./.;
       commonArgs = {
-        typstSource = "main.typ";
+        typstSource = "resume.typ";
 
         fontPaths = [
           # Add paths to fonts here
