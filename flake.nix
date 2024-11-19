@@ -41,7 +41,11 @@
 
         fontPaths = [
           # Add paths to fonts here
-          # "${pkgs.roboto}/share/fonts/truetype"
+          "${pkgs.roboto}/share/fonts/truetype"
+          "${pkgs.source-sans}/share/fonts/truetype"
+          "${pkgs.source-sans-pro}/share/fonts/truetype"
+          "${pkgs.font-awesome}/share/fonts/opentype"
+
         ];
 
         virtualPaths = [
@@ -112,7 +116,7 @@
           # build-script
           watch-script
           # More packages can be added here, like typstfmt
-          # pkgs.typstfmt
+          pkgs.typstfmt
         ];
       };
     });
