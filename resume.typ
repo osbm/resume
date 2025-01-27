@@ -76,7 +76,7 @@ Docker Hub: #link("https://hub.docker.com/u/osbm")[hub.docker.com/u/osbm]
 
 #resume-skill-item("Languages",(strong("C++"), strong("Python"), "CUDA", "JavaScript"))
 #resume-skill-item("Libraries", (strong("Pytorch"), "Tensorflow", "Huggingface Transformers", "OpenCV"))
-#resume-skill-item("Spoken Languages", (strong("English"), strong("Turkish")))
+#resume-skill-item("Spoken Languages", (strong("English"), "(IELTS score 7.5 (December-2024))", strong("Turkish")))
 #resume-skill-item("Tools", (strong("Git"),strong("Linux"), "Docker"))
 
 = Education
