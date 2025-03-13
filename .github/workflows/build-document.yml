@@ -2,8 +2,7 @@ name: Build and publish documents
 
 on:
   push:
-  schedule:
-    - cron: "42 23 * * 6" # At 23:42 every saturday.
+  workflow_dispatch:
 
 jobs:
   build_publish_documents_job:
